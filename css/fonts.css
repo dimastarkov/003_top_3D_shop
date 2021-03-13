@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'SF Text Regular';
+	src: url('../fonts/sf_ui_text_regular.eot'); /* IE 9 Compatibility Mode */
+	src:url('../fonts/sf_ui_text_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_text_regular.woff2') format('woff2'); /* Super Modern Browsers */
+		font-weight: normal;
+    	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'SF Display Pro Regular';
+	src: url('../fonts/SFProDisplay-Regular.eot'); /* IE 9 Compatibility Mode */
+	src:url('../fonts/SFProDisplay-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/SFProDisplay-Regular.woff2') format('woff2'); /* Super Modern Browsers */
+		font-weight: normal;
+		font-style: normal;
+	}

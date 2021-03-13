@@ -1,0 +1,138 @@
+.content {
+    margin: 7rem 0;
+    min-height: 20rem;
+
+    @media only screen and (max-width:64em) {
+        margin:0 0 7rem;
+    }
+    
+    & .staff-pic img {
+        max-width: 100%;
+        margin-bottom: 7rem;
+    }
+
+
+
+    &__job-box {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        @media only screen and (max-width:53em) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &_title {
+            flex:0 0 30%;
+            margin-right: 15rem;
+
+            @media only screen and (max-width:53em) {
+                flex: 1;
+                margin-right: 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            & a {
+                font-weight: 500;
+                color: #fff;
+                padding: 2rem 5rem;
+                border-radius: 5px;
+                background-color: #D2001C;
+
+                @media only screen and (max-width:53em) {
+                    margin-top: 3rem;
+                }
+            }
+
+            & p {
+                margin-top: 3rem;
+                font-weight: 500;
+                color: #C4C4C4;
+
+                @media only screen and (max-width:53em) {
+                    width: 24rem;
+                    text-align: left;
+                    margin: 1.5rem auto 6rem;
+                }
+            }
+        } 
+
+        &_description {
+            flex: 0 0 55%;
+
+            & a {
+                color: #D2001C;
+                border-bottom: 1px solid currentColor;
+            }
+        }
+    }//job-box
+
+    &__hr-box {
+        
+        margin: 5rem 0;
+
+        & h2 {
+            flex: 1;
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            
+        }
+
+        & h2::after {
+            content: "";
+            display: flex;
+            flex: 1;
+            height: 1px;
+            width:100%;
+            background-color: currentColor;
+            opacity: .1;
+            margin-left: 3rem;
+        }
+    }
+
+
+    &__links-box {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 4rem 0;
+
+        @media only screen and (max-width:56em) { //896px
+            text-align: left;
+            justify-content: center;
+        }
+
+        & a {
+            margin-bottom: 3rem;
+            &.current {
+                color:#D2001C;
+            }
+
+            &:not(:last-child) {
+                margin-right: 5rem;
+            }
+
+            & span {
+                border-bottom: 1px solid currentColor
+            }
+        } // content__links-box a
+
+       & .feature__icon {
+            height: 10px;
+            width: 10px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width:1.5;
+            stroke-linecap:round; 
+            stroke-linejoin:round;
+            margin-left: 1rem;
+        }
+    }
+} // content
