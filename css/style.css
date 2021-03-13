@@ -647,7 +647,7 @@ header.mobile .zeynep {
       -o-transition: transform 250ms;
       transition: transform 250ms;
       transition: transform 250ms, -webkit-transform 250ms; }
-    header.mobile .zeynep .submenu.opened {
+    header.mobile .zeynep .submenu.opened{
       left: 0;
       pointer-events: auto; }
       header.mobile .zeynep .submenu.opened:not(.current) {
