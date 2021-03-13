@@ -483,14 +483,14 @@ header.mobile .zeynep {
     header.mobile .zeynep ul > li {
       display: block; }
       header.mobile .zeynep ul > li.has-submenu > a {
-        background-image: url("img/submenu-arrow.svg");
+        background-image: url("../img/submenu-arrow.svg");
         background-position: right 2rem center;
         background-repeat: no-repeat;
         background-size: .8rem 1.4rem;
         font-size: 3rem;
         font-weight: 900; }
         header.mobile .zeynep ul > li.has-submenu > a:hover {
-          background-image: url("img/submenu-arrow-active.svg"); }
+          background-image: url("../img/submenu-arrow-active.svg"); }
       header.mobile .zeynep ul > li > a {
         color: inherit;
         display: block;
@@ -522,7 +522,7 @@ header.mobile .zeynep {
       header.mobile .zeynep .submenu.opened:not(.current) {
         overflow: hidden; }
   header.mobile .zeynep .submenu-header {
-    background-image: url("img/menu-back.svg");
+    background-image: url("../img/menu-back.svg");
     background-position: left 2rem center;
     background-repeat: no-repeat;
     background-size: .8rem 1.4rem;
@@ -537,7 +537,7 @@ header.mobile .zeynep {
       padding-left: 4rem;
       text-decoration: none; }
       header.mobile .zeynep .submenu-header > a:before {
-        background-image: url("img/submenu-arrow.svg");
+        background-image: url("../img/submenu-arrow.svg");
         background-position: right 2rem center;
         background-repeat: no-repeat;
         background-size: .8rem 1.4rem;
