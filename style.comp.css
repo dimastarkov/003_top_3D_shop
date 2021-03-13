@@ -313,7 +313,7 @@ header {
     margin-bottom: 7rem; }
   .content__job-box {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap; }
     @media only screen and (max-width: 53em) {
@@ -359,7 +359,7 @@ header {
       flex: 1;
       display: flex;
       width: 100%;
-      justify-content: start;
+      justify-content: flex-start;
       align-items: center; }
     .content__hr-box h2::after {
       content: "";
@@ -372,7 +372,7 @@ header {
       margin-left: 3rem; }
   .content__links-box {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     margin: 4rem 0; }

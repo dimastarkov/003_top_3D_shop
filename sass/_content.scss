@@ -15,7 +15,7 @@
 
     &__job-box {
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: flex-start;
         flex-wrap: wrap;
 
@@ -79,7 +79,7 @@
             flex: 1;
             display: flex;
             width: 100%;
-            justify-content: start;
+            justify-content: flex-start;
             align-items: center;
             
         }
@@ -99,7 +99,7 @@
 
     &__links-box {
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
         margin: 4rem 0;
