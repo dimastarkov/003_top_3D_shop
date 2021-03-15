@@ -212,16 +212,15 @@ header {
         color: transparent; }
       .header__search input:focus::-webkit-search-decoration, .header__search input:focus::-webkit-search-cancel-button, .header__search input:focus::-webkit-search-results-button, .header__search input:focus::-webkit-search-results-decoration {
         display: none; }
-  .header__search button {
-    width: 7.5rem;
-    height: 3.6rem;
+  .header__search a {
+    padding: .5rem 1rem;
     margin-left: -8rem;
     background: none;
     color: #D2001C;
     border: solid .2rem #D2001C;
     border-radius: .4rem; }
-    .header__search button a:hover,
-    .header__search button a:focus {
+    .header__search a a:hover,
+    .header__search a a:focus {
       border: none; }
 
 .header__login a,
