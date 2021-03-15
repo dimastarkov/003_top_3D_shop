@@ -469,6 +469,7 @@ header.mobile .zeynep {
   color: #404143;
   width: 100vw;
   max-height: 100%;
+  pointer-events: none;
   bottom: 0;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
@@ -551,7 +552,8 @@ header.mobile .zeynep {
         transform: rotate(-180deg);
         width: 2rem; }
   header.mobile .zeynep.opened {
-    transform: translateX(0); }
+    transform: translateX(0);
+    pointer-events: auto; }
   header.mobile .zeynep.submenu-opened {
     overflow: hidden; }
   header.mobile .zeynep .menu__header {

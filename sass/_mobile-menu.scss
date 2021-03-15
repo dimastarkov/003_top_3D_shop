@@ -33,7 +33,7 @@ header.mobile {
     color: #404143;
     width: 100vw;
     max-height: 100%;
-
+    pointer-events:none; // нужна для кнопки мобильного меню чтобы откликадась на клики
     bottom:0;
     overflow: hidden;
     -webkit-overflow-scrolling:touch;
@@ -152,7 +152,7 @@ header.mobile {
 
     &.opened{
       transform:translateX(0);
-
+      pointer-events:auto; // нужна для кнопки мобильного меню чтобы откликадась на клики
       // &:not(.current){
       //  overflow:hidden;
       // }
