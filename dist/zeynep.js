@@ -56,6 +56,8 @@
       zeynep.find('.submenu.current').removeClass('current')
       subMenuEl.addClass('opened current')
       !zeynep.hasClass('submenu-opened') && zeynep.addClass('submenu-opened')
+      zeynep.find('.menu__header').addClass('positionAbsolute')
+      //starkov
 
       // scroll to top before submenu transition
       zeynep.scrollTop(0)
@@ -85,6 +87,8 @@
       subMenuEl.removeClass('opened current')
       zeynep.find('.submenu.opened:last').addClass('current')
       !zeynep.find('.submenu.opened').length && zeynep.removeClass('submenu-opened')
+      zeynep.find('.menu__header').removeClass('positionAbsolute')
+      //starkov
 
       // scroll to top between submenu transitions
       subMenuEl.scrollTop(0)

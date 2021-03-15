@@ -12,7 +12,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-
             margin-bottom: 4rem;
 
             & h2 {
@@ -29,7 +28,6 @@
         stroke-linecap: round;
         stroke-linejoin: round;
         fill:none;
-
         border: 1px solid #E5E5E5;
         border-radius: .5rem;
 
@@ -53,7 +51,7 @@
          align-items: center;
          flex-wrap: wrap;
 
-         @media only screen and (max-width:64em) {
+         @media only screen and (max-width:64em) { // 1024 px
             flex-direction:column;
          }
 

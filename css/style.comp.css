@@ -219,6 +219,12 @@ header {
     color: #D2001C;
     border: solid .2rem #D2001C;
     border-radius: .4rem; }
+    @media only screen and (max-width: 64em) {
+      .header__search a {
+        padding: unset;
+        margin: unset;
+        border: none;
+        border-radius: unset; } }
     .header__search a a:hover,
     .header__search a a:focus {
       border: none; }

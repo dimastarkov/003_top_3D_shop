@@ -2,7 +2,7 @@
 *, *::before, *::after {box-sizing: inherit;}
 html {box-sizing: border-box; font-size: 62.5%; // 1 rem = 10 px
 
-    @media only screen and (max-width:75em) {
+    @media only screen and (max-width:75em) { // 1200 px
         font-size: 50%; // 1 rem = 8px
     }
 } 
@@ -65,14 +65,14 @@ button {
     margin: 0 auto;
     padding: 0 3rem;
 
-    @media only screen and (max-width:75em) {
+    @media only screen and (max-width:75em) { // 1200 px
         max-width: 120rem;
     }
 } //.wrap
 
-.wrap.mobile-wrap {
+.wrap.mobile-wrap { // wrap для мобильных устройств
 
-    @media only screen and (max-width:64em) {
+    @media only screen and (max-width:64em) { // 1024 px
         max-width: 100%;
         padding:0;
     }

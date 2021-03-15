@@ -244,6 +244,13 @@ header {
             border: solid .2rem #D2001C;
             border-radius: .4rem;
 
+            @media only screen and (max-width:64em) { // 1024px
+                padding: unset;
+                margin: unset;
+                border: none;
+                border-radius: unset;
+                }
+
             & a:hover, 
             & a:focus {
                 border: none;
