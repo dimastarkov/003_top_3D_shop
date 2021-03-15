@@ -626,3 +626,6 @@ header.mobile .zeynep {
 
 .zeynep-opened .zeynep-overlay {
   display: block; }
+
+.menu__header.positionAbsolute {
+  position: absolute !important; }
