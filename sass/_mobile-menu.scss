@@ -38,7 +38,6 @@ header.mobile {
     overflow: hidden;
     -webkit-overflow-scrolling:touch;
     overflow-y:auto;
-    pointer-events:none;
     position:fixed;
     top:0;
     transform:translateX(-100%);
@@ -99,8 +98,7 @@ header.mobile {
       overflow:hidden;
       -webkit-overflow-scrolling:touch;
       overflow-y:scroll;
-      pointer-events:none;
-      position:fixed; // было fixed
+      position:fixed;
       top:0;
       width:100%;
 
@@ -110,7 +108,6 @@ header.mobile {
 
       &.opened{
         left:0;
-        pointer-events:auto;
 
         &:not(.current){
           overflow:hidden;
@@ -154,7 +151,6 @@ header.mobile {
     } //  .zeynep .submenu-header
 
     &.opened{
-      pointer-events:auto;
       transform:translateX(0);
 
       // &:not(.current){

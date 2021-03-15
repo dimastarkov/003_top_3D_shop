@@ -467,7 +467,6 @@ header.mobile .zeynep {
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
-  pointer-events: none;
   position: fixed;
   top: 0;
   transform: translateX(-100%);
@@ -509,15 +508,13 @@ header.mobile .zeynep {
     overflow: hidden;
     -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
-    pointer-events: none;
     position: fixed;
     top: 0;
     width: 100%; }
     header.mobile .zeynep .submenu:not(.no-transition) {
       transition: transform 250ms; }
     header.mobile .zeynep .submenu.opened {
-      left: 0;
-      pointer-events: auto; }
+      left: 0; }
       header.mobile .zeynep .submenu.opened:not(.current) {
         overflow: hidden; }
   header.mobile .zeynep .submenu-header {
@@ -548,7 +545,6 @@ header.mobile .zeynep {
         transform: rotate(-180deg);
         width: 2rem; }
   header.mobile .zeynep.opened {
-    pointer-events: auto;
     transform: translateX(0); }
   header.mobile .zeynep.submenu-opened {
     overflow: hidden; }
