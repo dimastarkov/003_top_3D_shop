@@ -510,6 +510,7 @@ header.mobile .zeynep {
   header.mobile .zeynep .submenu {
     background-color: #ffffff;
     left: 100vw;
+    pointer-events: none;
     bottom: 0;
     min-height: 100%;
     overflow: hidden;
@@ -521,7 +522,8 @@ header.mobile .zeynep {
     header.mobile .zeynep .submenu:not(.no-transition) {
       transition: transform 250ms; }
     header.mobile .zeynep .submenu.opened {
-      left: 0; }
+      left: 0;
+      pointer-events: auto; }
       header.mobile .zeynep .submenu.opened:not(.current) {
         overflow: hidden; }
   header.mobile .zeynep .submenu-header {
